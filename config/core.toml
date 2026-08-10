@@ -1,0 +1,33 @@
+memory_usage = 3
+compression_level = 3
+enable_stat_tracking = false
+gs_password = "PHrFoBwq2e8g5cRSBJWJ9SHrFJdZ7o0G"
+gs_tcp_address = "0.0.0.0:4342"
+
+[logging]
+file_enabled = true
+directory = "logs"
+file_level = "debug"
+console_level = "info"
+filename = "central-server.log"
+rolling = false
+retention_days = 7
+
+[quic]
+enable = false
+address = "[::]:4341"
+tls_cert = ""
+tls_key = ""
+
+[tcp]
+enable = true
+address = "0.0.0.0:45651"
+
+[ws]
+enable = false
+address = "[::]:4341"
+
+[udp]
+enable = true
+address = "0.0.0.0:45651"
+ping_only = false

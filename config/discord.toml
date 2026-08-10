@@ -1,0 +1,11 @@
+enabled = true
+token = "ur Discord BOT token"
+main_guild_id = ID channel
+alert_channel = ID channel
+server_alert_channel = ID channel
+ticket_ping_channel = ID channel
+
+[oauth]
+client_id = "client ID from Developer Discord OAuth2"
+client_secret = "secret from Developer Discord OAuth2"
+redirect_uri = ""

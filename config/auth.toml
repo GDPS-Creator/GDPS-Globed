@@ -1,0 +1,8 @@
+secret_key = "7c69c33b2040cd62cbdcda79d1c8efcf483acf2e9e7a1825f7870ad10d7ee385"
+token_expiry = 86400
+enable_argon = false
+argon_url = "https://argon.globed.dev"
+argon_token = ""
+argon_ping_interval = 30
+argon_disconnect_timeout = 45
+trust_token_key = ""

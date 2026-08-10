@@ -1,0 +1,25 @@
+credits_cache_timeout = 86400
+credits_req_interval = 2
+
+[[credits_categories]]
+name = "Coders"
+
+[[credits_categories.users]]
+id = 1
+display_name = "starushka (CEO)"
+
+
+[[credits_categories]]
+name = "Testers"
+
+[[credits_categories.users]]
+id = 19
+display_name = "dalbayoob (BETA Tester)"
+
+[[credits_categories.users]]
+id = 1
+display_name = "starushka (BETA Tester)"
+
+[[credits_categories.users]]
+id = 18
+display_name = "BETA Tester"

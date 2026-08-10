@@ -1,0 +1,17 @@
+database_url = "sqlite://db.sqlite?mode=rwc"
+database_pool_size = 5
+roles = []
+super_admins = []
+script_sign_key = "27c27ced41d3345240ab8f48c5852ef306b41d8bfab821c8743b09eb70e18cec"
+whitelist = false
+vc_requires_discord_link = false
+disallow_room_names = false
+check_usernames = true
+record_player_counts = false
+player_count_retention_days = 0
+mod_log_channel = 1532320455049089125
+
+[punishment_reasons]
+mute = []
+ban = []
+room_ban = []

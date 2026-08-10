@@ -1,0 +1,30 @@
+memory_usage = 3
+compression_level = 3
+central_server_url = "127.0.0.1:4342 (or the router's IP address with open ports, or a VPS hosting IP)"
+central_server_password = "any password (We recommend leaving it at the default setting.)"
+server_name = "Pixel Multiplayer (Multiplayer name (any))"
+server_id = "main-server"
+server_region = "Global"
+server_address = "(In Playit, you will find your unique tunnel address at the top; copy it and paste it here, replacing this text.)"
+enable_stat_tracking = false
+tickrate = 30
+verify_script_signatures = true
+
+[tcp]
+enable = true
+address = "0.0.0.0:5351"
+
+[udp]
+enable = true
+ping_only = false
+address = "0.0.0.0:5351"
+binds = 1
+
+[logging]
+file_enabled = true
+directory = "logs"
+file_level = "debug"
+console_level = "info"
+filename = "game-server.log"
+rolling = false
+retention_days = 7

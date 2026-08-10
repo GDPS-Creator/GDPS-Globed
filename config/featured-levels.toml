@@ -1,0 +1,5 @@
+database_url = "sqlite://features.sqlite?mode=rwc"
+database_pool_size = 5
+feature_cycle_interval = 86400
+exhaust_notif_channel = 0
+feature_notif_channel = 0
